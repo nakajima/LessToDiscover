@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65EBD6229F9A64E003336E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EBD6129F9A64E003336E5 /* AppDelegate.swift */; };
+		A65EBD6429F9A64E003336E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EBD6329F9A64E003336E5 /* SceneDelegate.swift */; };
+		A65EBD6729F9A64E003336E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD6529F9A64E003336E5 /* LaunchScreen.storyboard */; };
+		A65EBD6A29F9A64E003336E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD6829F9A64E003336E5 /* Main.storyboard */; };
+		A65EBD7329F9A64E003336E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EBD7229F9A64E003336E5 /* AppDelegate.swift */; };
+		A65EBD7629F9A64E003336E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD7429F9A64E003336E5 /* Main.storyboard */; };
+		A65EBD7D29F9A64E003336E5 /* LessToDiscover Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A65EBD7C29F9A64E003336E5 /* LessToDiscover Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A65EBD8729F9A64E003336E5 /* LessToDiscover Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A65EBD8629F9A64E003336E5 /* LessToDiscover Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A65EBD8D29F9A64E003336E5 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4829F9A64D003336E5 /* Main.html */; };
+		A65EBD8E29F9A64E003336E5 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4829F9A64D003336E5 /* Main.html */; };
+		A65EBD8F29F9A64E003336E5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4A29F9A64D003336E5 /* Icon.png */; };
+		A65EBD9029F9A64E003336E5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4A29F9A64D003336E5 /* Icon.png */; };
+		A65EBD9129F9A64E003336E5 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4B29F9A64D003336E5 /* Style.css */; };
+		A65EBD9229F9A64E003336E5 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4B29F9A64D003336E5 /* Style.css */; };
+		A65EBD9329F9A64E003336E5 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4C29F9A64D003336E5 /* Script.js */; };
+		A65EBD9429F9A64E003336E5 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4C29F9A64D003336E5 /* Script.js */; };
+		A65EBD9529F9A64E003336E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EBD4D29F9A64D003336E5 /* ViewController.swift */; };
+		A65EBD9629F9A64E003336E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EBD4D29F9A64D003336E5 /* ViewController.swift */; };
+		A65EBD9729F9A64E003336E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4E29F9A64E003336E5 /* Assets.xcassets */; };
+		A65EBD9829F9A64E003336E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD4E29F9A64E003336E5 /* Assets.xcassets */; };
+		A65EBD9929F9A64E003336E5 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EBD5029F9A64E003336E5 /* SafariWebExtensionHandler.swift */; };
+		A65EBD9A29F9A64E003336E5 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65EBD5029F9A64E003336E5 /* SafariWebExtensionHandler.swift */; };
+		A65EBD9B29F9A64E003336E5 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5229F9A64E003336E5 /* _locales */; };
+		A65EBD9C29F9A64E003336E5 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5229F9A64E003336E5 /* _locales */; };
+		A65EBD9D29F9A64E003336E5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5329F9A64E003336E5 /* images */; };
+		A65EBD9E29F9A64E003336E5 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5329F9A64E003336E5 /* images */; };
+		A65EBD9F29F9A64E003336E5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5429F9A64E003336E5 /* manifest.json */; };
+		A65EBDA029F9A64E003336E5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5429F9A64E003336E5 /* manifest.json */; };
+		A65EBDA129F9A64E003336E5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5529F9A64E003336E5 /* background.js */; };
+		A65EBDA229F9A64E003336E5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5529F9A64E003336E5 /* background.js */; };
+		A65EBDA329F9A64E003336E5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5629F9A64E003336E5 /* content.js */; };
+		A65EBDA429F9A64E003336E5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5629F9A64E003336E5 /* content.js */; };
+		A65EBDA529F9A64E003336E5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5729F9A64E003336E5 /* popup.html */; };
+		A65EBDA629F9A64E003336E5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5729F9A64E003336E5 /* popup.html */; };
+		A65EBDA729F9A64E003336E5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5829F9A64E003336E5 /* popup.css */; };
+		A65EBDA829F9A64E003336E5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5829F9A64E003336E5 /* popup.css */; };
+		A65EBDA929F9A64E003336E5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5929F9A64E003336E5 /* popup.js */; };
+		A65EBDAA29F9A64E003336E5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A65EBD5929F9A64E003336E5 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A65EBD7E29F9A64E003336E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65EBD4229F9A64D003336E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65EBD7B29F9A64E003336E5;
+			remoteInfo = "LessToDiscover Extension (iOS)";
+		};
+		A65EBD8829F9A64E003336E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65EBD4229F9A64D003336E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65EBD8529F9A64E003336E5;
+			remoteInfo = "LessToDiscover Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A65EBDB029F9A64E003336E5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A65EBD7D29F9A64E003336E5 /* LessToDiscover Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBDB729F9A64E003336E5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A65EBD8729F9A64E003336E5 /* LessToDiscover Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A65EBD4929F9A64D003336E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		A65EBD4A29F9A64D003336E5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A65EBD4B29F9A64D003336E5 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		A65EBD4C29F9A64D003336E5 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		A65EBD4D29F9A64D003336E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A65EBD4E29F9A64E003336E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A65EBD5029F9A64E003336E5 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A65EBD5229F9A64E003336E5 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		A65EBD5329F9A64E003336E5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		A65EBD5429F9A64E003336E5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		A65EBD5529F9A64E003336E5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		A65EBD5629F9A64E003336E5 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		A65EBD5729F9A64E003336E5 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		A65EBD5829F9A64E003336E5 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		A65EBD5929F9A64E003336E5 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		A65EBD5E29F9A64E003336E5 /* LessToDiscover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessToDiscover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65EBD6129F9A64E003336E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A65EBD6329F9A64E003336E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A65EBD6629F9A64E003336E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A65EBD6929F9A64E003336E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A65EBD6B29F9A64E003336E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65EBD7029F9A64E003336E5 /* LessToDiscover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessToDiscover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65EBD7229F9A64E003336E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A65EBD7529F9A64E003336E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A65EBD7729F9A64E003336E5 /* LessToDiscover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LessToDiscover.entitlements; sourceTree = "<group>"; };
+		A65EBD7C29F9A64E003336E5 /* LessToDiscover Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LessToDiscover Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65EBD8129F9A64E003336E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65EBD8629F9A64E003336E5 /* LessToDiscover Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LessToDiscover Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65EBD8B29F9A64E003336E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65EBD8C29F9A64E003336E5 /* LessToDiscover.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LessToDiscover.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A65EBD5B29F9A64E003336E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBD6D29F9A64E003336E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBD7929F9A64E003336E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBD8329F9A64E003336E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A65EBD4129F9A64D003336E5 = {
+			isa = PBXGroup;
+			children = (
+				A65EBD4629F9A64D003336E5 /* Shared (App) */,
+				A65EBD4F29F9A64E003336E5 /* Shared (Extension) */,
+				A65EBD6029F9A64E003336E5 /* iOS (App) */,
+				A65EBD7129F9A64E003336E5 /* macOS (App) */,
+				A65EBD8029F9A64E003336E5 /* iOS (Extension) */,
+				A65EBD8A29F9A64E003336E5 /* macOS (Extension) */,
+				A65EBD5F29F9A64E003336E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A65EBD4629F9A64D003336E5 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A65EBD4D29F9A64D003336E5 /* ViewController.swift */,
+				A65EBD4E29F9A64E003336E5 /* Assets.xcassets */,
+				A65EBD4729F9A64D003336E5 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		A65EBD4729F9A64D003336E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A65EBD4829F9A64D003336E5 /* Main.html */,
+				A65EBD4A29F9A64D003336E5 /* Icon.png */,
+				A65EBD4B29F9A64D003336E5 /* Style.css */,
+				A65EBD4C29F9A64D003336E5 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A65EBD4F29F9A64E003336E5 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A65EBD5029F9A64E003336E5 /* SafariWebExtensionHandler.swift */,
+				A65EBD5129F9A64E003336E5 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		A65EBD5129F9A64E003336E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A65EBD5229F9A64E003336E5 /* _locales */,
+				A65EBD5329F9A64E003336E5 /* images */,
+				A65EBD5429F9A64E003336E5 /* manifest.json */,
+				A65EBD5529F9A64E003336E5 /* background.js */,
+				A65EBD5629F9A64E003336E5 /* content.js */,
+				A65EBD5729F9A64E003336E5 /* popup.html */,
+				A65EBD5829F9A64E003336E5 /* popup.css */,
+				A65EBD5929F9A64E003336E5 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A65EBD5F29F9A64E003336E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A65EBD5E29F9A64E003336E5 /* LessToDiscover.app */,
+				A65EBD7029F9A64E003336E5 /* LessToDiscover.app */,
+				A65EBD7C29F9A64E003336E5 /* LessToDiscover Extension.appex */,
+				A65EBD8629F9A64E003336E5 /* LessToDiscover Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A65EBD6029F9A64E003336E5 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A65EBD6129F9A64E003336E5 /* AppDelegate.swift */,
+				A65EBD6329F9A64E003336E5 /* SceneDelegate.swift */,
+				A65EBD6529F9A64E003336E5 /* LaunchScreen.storyboard */,
+				A65EBD6829F9A64E003336E5 /* Main.storyboard */,
+				A65EBD6B29F9A64E003336E5 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		A65EBD7129F9A64E003336E5 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				A65EBD7229F9A64E003336E5 /* AppDelegate.swift */,
+				A65EBD7429F9A64E003336E5 /* Main.storyboard */,
+				A65EBD7729F9A64E003336E5 /* LessToDiscover.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		A65EBD8029F9A64E003336E5 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A65EBD8129F9A64E003336E5 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		A65EBD8A29F9A64E003336E5 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				A65EBD8B29F9A64E003336E5 /* Info.plist */,
+				A65EBD8C29F9A64E003336E5 /* LessToDiscover.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A65EBD5D29F9A64E003336E5 /* LessToDiscover (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65EBDB129F9A64E003336E5 /* Build configuration list for PBXNativeTarget "LessToDiscover (iOS)" */;
+			buildPhases = (
+				A65EBD5A29F9A64E003336E5 /* Sources */,
+				A65EBD5B29F9A64E003336E5 /* Frameworks */,
+				A65EBD5C29F9A64E003336E5 /* Resources */,
+				A65EBDB029F9A64E003336E5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65EBD7F29F9A64E003336E5 /* PBXTargetDependency */,
+			);
+			name = "LessToDiscover (iOS)";
+			productName = "LessToDiscover (iOS)";
+			productReference = A65EBD5E29F9A64E003336E5 /* LessToDiscover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A65EBD6F29F9A64E003336E5 /* LessToDiscover (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65EBDB829F9A64E003336E5 /* Build configuration list for PBXNativeTarget "LessToDiscover (macOS)" */;
+			buildPhases = (
+				A65EBD6C29F9A64E003336E5 /* Sources */,
+				A65EBD6D29F9A64E003336E5 /* Frameworks */,
+				A65EBD6E29F9A64E003336E5 /* Resources */,
+				A65EBDB729F9A64E003336E5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65EBD8929F9A64E003336E5 /* PBXTargetDependency */,
+			);
+			name = "LessToDiscover (macOS)";
+			productName = "LessToDiscover (macOS)";
+			productReference = A65EBD7029F9A64E003336E5 /* LessToDiscover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A65EBD7B29F9A64E003336E5 /* LessToDiscover Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65EBDAD29F9A64E003336E5 /* Build configuration list for PBXNativeTarget "LessToDiscover Extension (iOS)" */;
+			buildPhases = (
+				A65EBD7829F9A64E003336E5 /* Sources */,
+				A65EBD7929F9A64E003336E5 /* Frameworks */,
+				A65EBD7A29F9A64E003336E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LessToDiscover Extension (iOS)";
+			productName = "LessToDiscover Extension (iOS)";
+			productReference = A65EBD7C29F9A64E003336E5 /* LessToDiscover Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A65EBD8529F9A64E003336E5 /* LessToDiscover Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65EBDB429F9A64E003336E5 /* Build configuration list for PBXNativeTarget "LessToDiscover Extension (macOS)" */;
+			buildPhases = (
+				A65EBD8229F9A64E003336E5 /* Sources */,
+				A65EBD8329F9A64E003336E5 /* Frameworks */,
+				A65EBD8429F9A64E003336E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LessToDiscover Extension (macOS)";
+			productName = "LessToDiscover Extension (macOS)";
+			productReference = A65EBD8629F9A64E003336E5 /* LessToDiscover Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A65EBD4229F9A64D003336E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A65EBD5D29F9A64E003336E5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A65EBD6F29F9A64E003336E5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A65EBD7B29F9A64E003336E5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A65EBD8529F9A64E003336E5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A65EBD4529F9A64D003336E5 /* Build configuration list for PBXProject "LessToDiscover" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A65EBD4129F9A64D003336E5;
+			productRefGroup = A65EBD5F29F9A64E003336E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A65EBD5D29F9A64E003336E5 /* LessToDiscover (iOS) */,
+				A65EBD6F29F9A64E003336E5 /* LessToDiscover (macOS) */,
+				A65EBD7B29F9A64E003336E5 /* LessToDiscover Extension (iOS) */,
+				A65EBD8529F9A64E003336E5 /* LessToDiscover Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A65EBD5C29F9A64E003336E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EBD8F29F9A64E003336E5 /* Icon.png in Resources */,
+				A65EBD6729F9A64E003336E5 /* LaunchScreen.storyboard in Resources */,
+				A65EBD8D29F9A64E003336E5 /* Main.html in Resources */,
+				A65EBD9329F9A64E003336E5 /* Script.js in Resources */,
+				A65EBD9729F9A64E003336E5 /* Assets.xcassets in Resources */,
+				A65EBD6A29F9A64E003336E5 /* Main.storyboard in Resources */,
+				A65EBD9129F9A64E003336E5 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBD6E29F9A64E003336E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EBD9029F9A64E003336E5 /* Icon.png in Resources */,
+				A65EBD9229F9A64E003336E5 /* Style.css in Resources */,
+				A65EBD7629F9A64E003336E5 /* Main.storyboard in Resources */,
+				A65EBD9429F9A64E003336E5 /* Script.js in Resources */,
+				A65EBD9829F9A64E003336E5 /* Assets.xcassets in Resources */,
+				A65EBD8E29F9A64E003336E5 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBD7A29F9A64E003336E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EBDA129F9A64E003336E5 /* background.js in Resources */,
+				A65EBDA729F9A64E003336E5 /* popup.css in Resources */,
+				A65EBDA529F9A64E003336E5 /* popup.html in Resources */,
+				A65EBD9D29F9A64E003336E5 /* images in Resources */,
+				A65EBD9F29F9A64E003336E5 /* manifest.json in Resources */,
+				A65EBD9B29F9A64E003336E5 /* _locales in Resources */,
+				A65EBDA329F9A64E003336E5 /* content.js in Resources */,
+				A65EBDA929F9A64E003336E5 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBD8429F9A64E003336E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EBDA229F9A64E003336E5 /* background.js in Resources */,
+				A65EBDA829F9A64E003336E5 /* popup.css in Resources */,
+				A65EBDA629F9A64E003336E5 /* popup.html in Resources */,
+				A65EBD9E29F9A64E003336E5 /* images in Resources */,
+				A65EBDA029F9A64E003336E5 /* manifest.json in Resources */,
+				A65EBD9C29F9A64E003336E5 /* _locales in Resources */,
+				A65EBDA429F9A64E003336E5 /* content.js in Resources */,
+				A65EBDAA29F9A64E003336E5 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A65EBD5A29F9A64E003336E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EBD9529F9A64E003336E5 /* ViewController.swift in Sources */,
+				A65EBD6229F9A64E003336E5 /* AppDelegate.swift in Sources */,
+				A65EBD6429F9A64E003336E5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBD6C29F9A64E003336E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EBD9629F9A64E003336E5 /* ViewController.swift in Sources */,
+				A65EBD7329F9A64E003336E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBD7829F9A64E003336E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EBD9929F9A64E003336E5 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65EBD8229F9A64E003336E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65EBD9A29F9A64E003336E5 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A65EBD7F29F9A64E003336E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65EBD7B29F9A64E003336E5 /* LessToDiscover Extension (iOS) */;
+			targetProxy = A65EBD7E29F9A64E003336E5 /* PBXContainerItemProxy */;
+		};
+		A65EBD8929F9A64E003336E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65EBD8529F9A64E003336E5 /* LessToDiscover Extension (macOS) */;
+			targetProxy = A65EBD8829F9A64E003336E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A65EBD4829F9A64D003336E5 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65EBD4929F9A64D003336E5 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		A65EBD6529F9A64E003336E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65EBD6629F9A64E003336E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A65EBD6829F9A64E003336E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65EBD6929F9A64E003336E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A65EBD7429F9A64E003336E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65EBD7529F9A64E003336E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A65EBDAB29F9A64E003336E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A65EBDAC29F9A64E003336E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A65EBDAE29F9A64E003336E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LessToDiscover Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LessToDiscover.Extension;
+				PRODUCT_NAME = "LessToDiscover Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A65EBDAF29F9A64E003336E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LessToDiscover Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LessToDiscover.Extension;
+				PRODUCT_NAME = "LessToDiscover Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A65EBDB229F9A64E003336E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = LessToDiscover;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LessToDiscover;
+				PRODUCT_NAME = LessToDiscover;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A65EBDB329F9A64E003336E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = LessToDiscover;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LessToDiscover;
+				PRODUCT_NAME = LessToDiscover;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A65EBDB529F9A64E003336E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/LessToDiscover.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LessToDiscover Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LessToDiscover.Extension;
+				PRODUCT_NAME = "LessToDiscover Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A65EBDB629F9A64E003336E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/LessToDiscover.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LessToDiscover Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LessToDiscover.Extension;
+				PRODUCT_NAME = "LessToDiscover Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A65EBDB929F9A64E003336E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/LessToDiscover.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LessToDiscover;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LessToDiscover;
+				PRODUCT_NAME = LessToDiscover;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A65EBDBA29F9A64E003336E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/LessToDiscover.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LessToDiscover;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LessToDiscover;
+				PRODUCT_NAME = LessToDiscover;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A65EBD4529F9A64D003336E5 /* Build configuration list for PBXProject "LessToDiscover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EBDAB29F9A64E003336E5 /* Debug */,
+				A65EBDAC29F9A64E003336E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65EBDAD29F9A64E003336E5 /* Build configuration list for PBXNativeTarget "LessToDiscover Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EBDAE29F9A64E003336E5 /* Debug */,
+				A65EBDAF29F9A64E003336E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65EBDB129F9A64E003336E5 /* Build configuration list for PBXNativeTarget "LessToDiscover (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EBDB229F9A64E003336E5 /* Debug */,
+				A65EBDB329F9A64E003336E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65EBDB429F9A64E003336E5 /* Build configuration list for PBXNativeTarget "LessToDiscover Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EBDB529F9A64E003336E5 /* Debug */,
+				A65EBDB629F9A64E003336E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65EBDB829F9A64E003336E5 /* Build configuration list for PBXNativeTarget "LessToDiscover (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EBDB929F9A64E003336E5 /* Debug */,
+				A65EBDBA29F9A64E003336E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A65EBD4229F9A64D003336E5 /* Project object */;
+}
